@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "yaml_parser"
+version = "0.0.1"
+description = "wrapper for parsing yaml files into dictionaries"
+authors = ["Daniel Sturdivant <sturdivant20@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^1.26.4"
+PyYAML = "^6.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
