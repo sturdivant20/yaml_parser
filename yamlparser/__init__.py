@@ -1,1 +1,1 @@
-from yaml_parser.parser import *
+from yamlparser.parser import *
