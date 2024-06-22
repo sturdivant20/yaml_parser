@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "yaml-parser"
+name = "yamlparser"
 version = "0.0.1"
 description = "Wrapper for parsing yaml files into dictionaries. Contains recursive tool to overwrite small sections of large yaml files with much smaller ones."
 authors = ["Daniel Sturdivant <sturdivant20@gmail.com>"]
@@ -7,7 +7,7 @@ license = "MIT"
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "^3.10"
 pyyaml = "^6.0.1"
 
 
